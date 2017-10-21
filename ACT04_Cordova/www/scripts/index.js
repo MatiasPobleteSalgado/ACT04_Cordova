@@ -9,11 +9,11 @@ function APP(dom) {
      Referencia a al objeto mismo(var _this), utilizada en funciones llamadas en callbacks debido al cambio de scope
      https://www.w3schools.com/js/js_scope.asp
      */
-    console.log("._.");
     var _this = this;
     this.doc = $(dom);
 
     this.loadAndroidEvents = function () {
+
         /*
             Ya que el ciclo de vida de android es relativamente complejo y extenso no se implementan cada uno de los eventos
             sino solo los necesarios, si la aplicacion requiriese reconexiones, inicializar sockets, o utilizacion de sensores
@@ -27,6 +27,7 @@ function APP(dom) {
         //_this.doc.on('pause', _this.onPause);
         //_this.doc.on('stop', _this.onStop);
         //_this.doc.on('destroy', _this.onDestroy);
+        console.log("asd");
     }
     
     this.onCreate = function () {
