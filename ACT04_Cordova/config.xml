@@ -106,4 +106,5 @@
   <preference name="Orientation" value="landscape" />
   <preference name="Fullscreen" value="False" />
   <preference name="KeepRunning" value="False" />
+  <plugin name="cordova-plugin-console" spec="~" />
 </widget>

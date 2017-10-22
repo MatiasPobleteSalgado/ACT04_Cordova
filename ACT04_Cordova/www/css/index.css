@@ -48,3 +48,9 @@ body {
         opacity: 1.0;
     }
 }
+
+.base{
+    width: 13%;
+    height: auto;
+    margin-right: 5px;
+}
